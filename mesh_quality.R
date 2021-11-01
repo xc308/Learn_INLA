@@ -2,6 +2,8 @@
 # Mesh
 #*******#
 
+# ref: https://www.maths.ed.ac.uk/~flindgre/2018/07/22/spatially-varying-mesh-quality/
+
 # spatially varying mesh 
 install.packages("INLA",repos=c(getOption("repos"),INLA="https://inla.r-inla-download.org/R/stable"), dep=TRUE)
 library(INLA)
